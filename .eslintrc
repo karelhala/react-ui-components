@@ -5,7 +5,8 @@
     "react"
   ],
   "rules": {
-    "no-underscore-dangle": ["error", { "allow": ["__"] }],
+    "no-param-reassign": 0,
+    "no-underscore-dangle": ["error", { "allow": ["__", "_index"] }],
     "import/prefer-default-export": "off",
     "no-console": "off",
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true, "optionalDependencies": true, "peerDependencies": true}],
